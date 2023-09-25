@@ -1,1 +1,0 @@
-# ruinbible.github.io
