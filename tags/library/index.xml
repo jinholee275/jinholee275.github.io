@@ -97,7 +97,7 @@
     };
     mermaid.initialize(mermaidConfig);
 &lt;/script&gt;
-&lt;div class=&#34;mermaid&#34;&gt;
+&lt;pre class=&#34;mermaid&#34;&gt;
     
 classDiagram
     SignPadConfig &lt;-- ISignPadPlugin
@@ -113,7 +113,6 @@ classDiagram
         +string ImgFilePath
     }
     class ISignPadPlugin{
-        &lt;&lt;interface&gt;&gt;
         +string Activate(SignPadConfig config)
     }
     class SignPadLoader{
@@ -123,7 +122,7 @@ classDiagram
         +GetPlugin(IEnumerable~string~ names = null, IEnumerable~string~ excepts = null, bool onlyPhysicalDevice = false) ISignPadPlugin$
     }
 
-&lt;/div&gt;
+&lt;/pre&gt;
 &lt;h3 id=&#34;플러그인-모듈signpadpickersignpadadaptor-클래스-다이어그램&#34;&gt;플러그인 모듈(SignPadPicker.*SignPadAdaptor) 클래스 다이어그램&lt;/h3&gt;
 &lt;script src=&#34;https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js&#34;&gt;&lt;/script&gt;
 &lt;script&gt;
@@ -185,7 +184,7 @@ classDiagram
     };
     mermaid.initialize(mermaidConfig);
 &lt;/script&gt;
-&lt;div class=&#34;mermaid&#34;&gt;
+&lt;pre class=&#34;mermaid&#34;&gt;
     
 classDiagram
     ISignPadPlugin &lt;|-- ScreenSignPad
@@ -197,7 +196,6 @@ classDiagram
     NiceSignPad --&gt; NICEPOSICV105
     namespace SignPadPicker {
         class ISignPadPlugin{
-            &lt;&lt;interface&gt;&gt;
             string Activate(SignPadConfig config)
         }
     }
@@ -221,17 +219,8 @@ classDiagram
             +string Activate(SignPadConfig config)
         }
     }
-    class KisDongleDll{
-        &lt;&lt;Module&gt;&gt;
-    }
-    class ksnetcomm{
-        &lt;&lt;Module&gt;&gt;
-    }
-    class NICEPOSICV105{
-        &lt;&lt;Module&gt;&gt;
-    }
 
-&lt;/div&gt;
+&lt;/pre&gt;
 &lt;h2 id=&#34;개발-가이드&#34;&gt;개발 가이드&lt;/h2&gt;
 &lt;h3 id=&#34;프로젝트에-모듈-참조-추가&#34;&gt;프로젝트에 모듈 참조 추가&lt;/h3&gt;
 &lt;ul&gt;
