@@ -1,25 +1,44 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  
-  <sitemap>
-    <loc>https://jinholee275.github.io/en/sitemap.xml</loc>
-    
-      <lastmod>2020-10-09T00:00:00+00:00</lastmod>
-    
-  </sitemap>
-  
-  <sitemap>
-    <loc>https://jinholee275.github.io/zh-cn/sitemap.xml</loc>
-    
-      <lastmod>2020-09-09T00:00:00+00:00</lastmod>
-    
-  </sitemap>
-  
-  <sitemap>
-    <loc>https://jinholee275.github.io/ar/sitemap.xml</loc>
-    
-      <lastmod>2019-03-09T00:00:00+00:00</lastmod>
-    
-  </sitemap>
-  
-</sitemapindex>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>https://jinholee275.github.io/</loc>
+    <lastmod>2023-10-11T08:23:10+09:00</lastmod>
+  </url><url>
+    <loc>https://jinholee275.github.io/categories/</loc>
+    <lastmod>2023-10-11T08:23:10+09:00</lastmod>
+  </url><url>
+    <loc>https://jinholee275.github.io/tags/library/</loc>
+    <lastmod>2023-10-11T08:23:10+09:00</lastmod>
+  </url><url>
+    <loc>https://jinholee275.github.io/categories/manual/</loc>
+    <lastmod>2023-10-11T08:23:10+09:00</lastmod>
+  </url><url>
+    <loc>https://jinholee275.github.io/post/</loc>
+    <lastmod>2023-10-11T08:23:10+09:00</lastmod>
+  </url><url>
+    <loc>https://jinholee275.github.io/tags/signpadpicker/</loc>
+    <lastmod>2023-10-11T08:23:10+09:00</lastmod>
+  </url><url>
+    <loc>https://jinholee275.github.io/p/signpadpicker-%EB%9D%BC%EC%9D%B4%EB%B8%8C%EB%9F%AC%EB%A6%AC-%EC%82%AC%EC%9A%A9%EC%9E%90-%EB%A7%A4%EB%89%B4%EC%96%BC/</loc>
+    <lastmod>2023-10-11T08:23:10+09:00</lastmod>
+  </url><url>
+    <loc>https://jinholee275.github.io/tags/</loc>
+    <lastmod>2023-10-11T08:23:10+09:00</lastmod>
+  </url><url>
+    <loc>https://jinholee275.github.io/archives/</loc>
+    <lastmod>2019-05-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://jinholee275.github.io/page/</loc>
+    <lastmod>2020-10-09T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://jinholee275.github.io/about/</loc>
+    <lastmod>2020-10-09T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://jinholee275.github.io/links/</loc>
+  </url><url>
+    <loc>https://jinholee275.github.io/search/</loc>
+  </url><url>
+    <loc>https://jinholee275.github.io/categories/test/</loc>
+  </url>
+</urlset>

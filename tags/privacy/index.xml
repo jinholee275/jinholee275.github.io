@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
-        <title>privacy on Example Site</title>
+        <title>privacy on jinholee275 블로그</title>
         <link>https://jinholee275.github.io/tags/privacy/</link>
-        <description>Recent content in privacy on Example Site</description>
+        <description>Recent content in privacy on jinholee275 블로그</description>
         <generator>Hugo -- gohugo.io</generator>
-        <language>en</language>
-        <copyright>Example Person</copyright>
+        <language>ko</language>
+        <copyright>Jinho Lee</copyright>
         <lastBuildDate>Sun, 10 Mar 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://jinholee275.github.io/tags/privacy/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>Rich Content</title>
         <link>https://jinholee275.github.io/p/rich-content/</link>
@@ -59,7 +59,10 @@
 &lt;script type=&#34;application/javascript&#34; src=&#34;https://gist.github.com/spf13/7896402.js&#34;&gt;&lt;/script&gt;
 
 &lt;h2 id=&#34;gitlab-snippets-shortcode&#34;&gt;Gitlab Snippets Shortcode&lt;/h2&gt;
-&lt;p&gt;{&amp;lt; gitlab 2349278 &amp;gt;}&lt;/p&gt;
+&lt;script
+    type=&#34;application/javascript&#34;
+    src=&#34;https://gitlab.com/-/snippets/2349278.js&#34;
+&gt;&lt;/script&gt;
 &lt;h2 id=&#34;quote-shortcode&#34;&gt;Quote Shortcode&lt;/h2&gt;
 &lt;p&gt;Stack adds a &lt;code&gt;quote&lt;/code&gt; shortcode.  For example:&lt;/p&gt;
 &lt;blockquote&gt;
@@ -69,7 +72,77 @@
 &lt;blockquote&gt;
     &lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&lt;/p&gt;&lt;span class=&#34;cite&#34;&gt;&lt;span&gt;― &lt;/span&gt;&lt;cite&gt;Some book&lt;/cite&gt;&lt;/span&gt;&lt;/blockquote&gt;
 &lt;blockquote&gt;
-    &lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&lt;/p&gt;&lt;span class=&#34;cite&#34;&gt;&lt;span&gt;― &lt;/span&gt;&lt;span&gt;Somebody&lt;/span&gt;&lt;cite&gt;&lt;/cite&gt;&lt;/span&gt;&lt;/blockquote&gt;</description>
+    &lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&lt;/p&gt;&lt;span class=&#34;cite&#34;&gt;&lt;span&gt;― &lt;/span&gt;&lt;span&gt;Somebody&lt;/span&gt;&lt;cite&gt;&lt;/cite&gt;&lt;/span&gt;&lt;/blockquote&gt;
+&lt;h2 id=&#34;mermaid&#34;&gt;Mermaid&lt;/h2&gt;
+&lt;script src=&#34;https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js&#34;&gt;&lt;/script&gt;
+&lt;script&gt;
+    let isDark = window.matchMedia(&#39;(prefers-color-scheme: dark)&#39;).matches;
+    let mermaidTheme = (isDark) ? &#39;dark&#39; : &#39;default&#39;;
+    let mermaidConfig = {
+        theme: mermaidTheme,
+        logLevel: &#39;fatal&#39;,
+        securityLevel: &#39;strict&#39;,
+        startOnLoad: true,
+        arrowMarkerAbsolute: false,
+
+        er: {
+            diagramPadding: 20,
+            layoutDirection: &#39;TB&#39;,
+            minEntityWidth: 100,
+            minEntityHeight: 75,
+            entityPadding: 15,
+            stroke: &#39;gray&#39;,
+            fill: &#39;honeydew&#39;,
+            fontSize: 12,
+            useMaxWidth: true,
+        },
+        flowchart: {
+            diagramPadding: 8,
+            htmlLabels: true,
+            curve: &#39;basis&#39;,
+        },
+        sequence: {
+            diagramMarginX: 50,
+            diagramMarginY: 10,
+            actorMargin: 50,
+            width: 150,
+            height: 65,
+            boxMargin: 10,
+            boxTextMargin: 5,
+            noteMargin: 10,
+            messageMargin: 35,
+            messageAlign: &#39;center&#39;,
+            mirrorActors: true,
+            bottomMarginAdj: 1,
+            useMaxWidth: true,
+            rightAngles: false,
+            showSequenceNumbers: false,
+        },
+        gantt: {
+            titleTopMargin: 25,
+            barHeight: 20,
+            barGap: 4,
+            topPadding: 50,
+            leftPadding: 75,
+            gridLineStartPadding: 35,
+            fontSize: 11,
+            fontFamily: &#39;&#34;Open-Sans&#34;, &#34;sans-serif&#34;&#39;,
+            numberSectionStyles: 4,
+            axisFormat: &#39;%Y-%m-%d&#39;,
+            topAxis: false,
+        },
+    };
+    mermaid.initialize(mermaidConfig);
+&lt;/script&gt;
+&lt;div class=&#34;mermaid&#34;&gt;
+    
+graph LR
+    A[Square Rect] -- Link text --&gt; B((Circle))
+    A --&gt; C(Round Rect)
+    B --&gt; D{Rhombus}
+    C --&gt; D
+
+&lt;/div&gt;</description>
         </item>
         
     </channel>
