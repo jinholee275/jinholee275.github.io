@@ -227,20 +227,7 @@ classDiagram
 &lt;li&gt;사인패드 장치연동 기능이 필요한 프로젝트에 &lt;code&gt;SignPadPicker.dll&lt;/code&gt; 모듈을 참조에 추가 합니다.&lt;/li&gt;
 &lt;li&gt;&lt;code&gt;SignPadPicker.KisSignPadAdaptor.dll&lt;/code&gt; 같은 플러그인 모듈이나 &lt;code&gt;KisDongleDll.dll&lt;/code&gt; 같은 벤더사에서 제공하는 모듈은 참조가 필요 없으니 &lt;strong&gt;주의!&lt;/strong&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;img src=&#34;https://jinholee275.github.io/p/signpadpicker-%EB%9D%BC%EC%9D%B4%EB%B8%8C%EB%9F%AC%EB%A6%AC-%EC%82%AC%EC%9A%A9%EC%9E%90-%EB%A7%A4%EB%89%B4%EC%96%BC/pic1.png&#34;
-	width=&#34;693&#34;
-	height=&#34;1039&#34;
-	srcset=&#34;https://jinholee275.github.io/p/signpadpicker-%EB%9D%BC%EC%9D%B4%EB%B8%8C%EB%9F%AC%EB%A6%AC-%EC%82%AC%EC%9A%A9%EC%9E%90-%EB%A7%A4%EB%89%B4%EC%96%BC/pic1_hu13aacc8dcab226da1128dc3bb97d8d83_297146_480x0_resize_box_3.png 480w, https://jinholee275.github.io/p/signpadpicker-%EB%9D%BC%EC%9D%B4%EB%B8%8C%EB%9F%AC%EB%A6%AC-%EC%82%AC%EC%9A%A9%EC%9E%90-%EB%A7%A4%EB%89%B4%EC%96%BC/pic1_hu13aacc8dcab226da1128dc3bb97d8d83_297146_1024x0_resize_box_3.png 1024w&#34;
-	loading=&#34;lazy&#34;
-	
-		alt=&#34;Visual Studio 프로젝트 참조&#34;
-	
-	
-		class=&#34;gallery-image&#34; 
-		data-flex-grow=&#34;66&#34;
-		data-flex-basis=&#34;160px&#34;
-	
-&gt;&lt;/p&gt;
+&lt;img src=&#34;pic1.png&#34; alt=&#34;Visual Studio 프로젝트 참조&#34; width=&#34;347&#34; height=&#34;520&#34; style=&#34;margin-left: auto; margin-right: auto; display: block;&#34;&gt;
 &lt;h3 id=&#34;사인패드-플러그인-모듈-로드&#34;&gt;사인패드 플러그인 모듈 로드&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;애플리케이션에 배포 및 설치된 플러그인 라이브러리 모듈을 로드 합니다.&lt;/li&gt;
